@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		table#outer {
+			border: 2px solid navy;
+		}
+	</style>
+	<link rel="stylesheet" href="css/myinfoupdate.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+	<script defer src="js/jquery-3.0.0.min.js"></script>
+	<script type="text/javascript">
+		function validate() {
+			//비밀번호 유효성 검사
+			var passRule = /^(?=.*[a-zA-Z])((?=.*\d)(?=.*\W)).{8,16}$/;
+
+			var pwd1 = document.getElementById("upwd1").value;
+			var pwd2 = document.getElementById("upwd2").value;
+
+			if (pwd1 !== pwd2) {
+				alert("암호와 암호 확인의 값이 일치하지 않습니다.\n"
+					+ "다시 입력하세요.");
+				document.getElementById("upwd1").select();
+				return false;
+			}
+
+			if (passRule.test(pwd1) === false) {
+				alert("비밀번호는 8~16자의 영문 대소문자와 숫자, 특수문자를 적어도 하나는 포함해야 합니다.");
+				document.getElementById("upwd1").select();
+				return false;
+			}
+			return true;
+		}
+	</script>
+	</head>
+	<body>
+		<form action="" method="">
+			<div class="wrap">
+				<div class="login">
+					<a href="index.html">
+						<h3 text-align="center" style="font-family: 'Noto Sans KR', sans-serif; font-size : 40px">마이페이지</h3>
+						<br>
+					</a>
+					<!--이메일 입력-->
+					<div class="my_info2">
+						<h4 style="	font-family: 'Noto Sans KR', sans-serif;">이름</h4>
+						<input type="text" name="m_name" value="" readonly>
+					</div>
+					<!--비밀번호 입력-->
+					<div class="my_info2">
+						<h4 style="	font-family: 'Noto Sans KR', sans-serif;">아이디</h4>
+						<input type="text" name="m_id" id="n_id" value="" readonly>
+					</div>
+					<div class="my_info2">
+						<h4 style="	font-family: 'Noto Sans KR', sans-serif;">닉네임</h4>
+						<input type="text" name="m_nickname" value="">
+					</div>
+					<div class="my_info2">
+						<h4 style="	font-family: 'Noto Sans KR', sans-serif;">암호</h4>
+						<input type="password" name="m_pw" id="upwd1" value="">
+					</div>
+					<div class="my_info2">
+						<h4 style="	font-family: 'Noto Sans KR', sans-serif;">암호확인</h4>
+						<input type="password" id="upwd2" onblur="validate();">
+					</div>
+					<div class="my_info2">
+						<h4 style="	font-family: 'Noto Sans KR', sans-serif;">생년월일</h4>
+						<input type="text" name="m_birth" value="">
+					</div>
+					<div class="my_info2">
+						<h4 style="	font-family: 'Noto Sans KR', sans-serif;">이메일</h4>
+						<input type="email" name="m_email" value="">
+					</div>
+					<br>
+					<div>
+						<input class="submit2" type="button" value="수정" onclick="location.href='myinfoupdate.html'">&nbsp;
+						<a id="mainmove" href="index.html">홈으로</a>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/enroll.css" type="text/css">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>무비플라자 : 회원가입</title>
+</head>
+<body>
+	<form action="enroll.do" method="post" onsubmit="return validate();">
+		<div class="wrap">
+			<div class="login">
+				<h3 text-align="center" style="font-family: 'Noto Sans KR', sans-serif; font-size : 40px">회원 가입</h3><br>
+				<div class="textForm2">
+					<!--이메일 입력-->
+					<input type="email" class="m_email" name="m_email" id="m_email"
+						oninput="statusMail();" placeholder="*이메일을 입력해주세요." required>
+						<div class="emailchk">
+					<!--이메일 중복확인-->
+					<input type="button" class="bttn" value="중복확인"
+						onclick="return validateMail();"> <span id="emailStatus"></span>
+						</div>
+				</div>
+				<!--비밀번호 확인-->
+				<div class="textForm">
+					<input type="password" class="pw" name="m_pw" id="upwd1" oninput="chkPwd();"
+						placeholder="*비밀번호를 입력해주세요." required> <br> <span
+						id="chkPwdMessage"></span>
+				</div>
+				<!--비밀번호 재확인-->
+				<div class="textForm">
+					<input type="password" class="pw" id="upwd2" oninput="validPW();"
+						placeholder="*비밀번호 확인"> <Br> <span
+						id="pwRuleChk"></span>
+				</div>
+				<!--닉네임 중복확인-->
+				<div class="textForm">
+					<input type="text" name="m_nickname" id="m_nickname"
+						oninput="dupCheckNick();" class="id" placeholder="*닉네임을 입력해주세요."
+						required> <br> <span id="nicknameDupCheckMsg"></span>
+				</div>
+				<!--성별 선택 -->
+				<div class="textForm3">
+					<input type="gender" class="gender" name="gender" id="gender" placeholder="*성별을 선택하세요." disabled>
+				<div class="genderchk">
+					<input type="radio" class="bttn2" value="male"> <span id="genderstatus">남</span>
+					<input type="radio" class="bttn3" value="female"> <span id="genderstatus">여</span>
+				</div>
+				</div>
+				<!--생년월일 확인-->
+				<div class="textForm3">
+					<input type="birthday" class="birthday" name="birthday" id="birthday" placeholder="*생년월일을 선택하세요." disabled>
+				<div class="genderchk">
+					<input type="date" class="bttn2" value="male"> <span id="birthdaystauts"></span>
+					
+				</div>
+				</div>
+				<br>
+				<div>
+					<input class="submit2" type="submit" value="가입하기">&nbsp;
+					<a id="mainmove" href="index.html">홈으로</a>
+				</div>
+	</form>
+
+	<hr style="clear: both;">
+</body>
+</html>
