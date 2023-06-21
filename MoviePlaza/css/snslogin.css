@@ -50,14 +50,19 @@
   
   .login_id {
     margin-top: 20px;
-    width: 70%;
+    width: 400px;
     height: 60px;
     border: solid;
     border-radius: 5px;
+    margin-bottom: 5px;
   }
   .login_id a{
     height: 60px;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .login_id a > p{
+    margin-top: 15px;
   }
  
 .nav_img {
