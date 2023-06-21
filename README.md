@@ -3,8 +3,8 @@
 
 <h1>남은것들</h1>
 <h3>UI</h3>
-<del>작품DB</del>
-<del>트렌드분석</del>
+<del>작품DB</del><br>
+<del>트렌드분석</del><br>
 <del>OTT순위<del>
 
 <h3>삭제예정</h3>
