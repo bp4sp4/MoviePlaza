@@ -17,8 +17,8 @@ Contact Us 협의<br>
 
 <h1> 23/06/22</h1>
 <h2>수정사항</h2>
-<h3>1. login.html sns영역 수정<br>2. snsjoin.html<br> 3. sns로그인 css 수정<br>
-4. 타이틀 수정</h2>
+<h3>1. login.html sns영역 수정<br>2. snsjoin.html 사진 수정<br>
+3. 타이틀 수정</h2>
 
 <h1>23/06/21</h1>
 <h2>Git Repo Create</h2>
