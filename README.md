@@ -1,5 +1,10 @@
 # MoviePlaza
  MoviePlaza
+ <h1>23/07/31</h1>
+<h1>회의내용 참고해서 만들기</h1>
+1. admin.html -> adminLogin.html
+2. 네비게이션바 -> 로그인, 로그아웃 추가
+
 
  <h1>23/07/23</h1>
  <h2>반응형 웹디자인 로그인영역</h2>
