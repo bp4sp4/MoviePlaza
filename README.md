@@ -1,5 +1,13 @@
 # MoviePlaza
  MoviePlaza
+
+
+ <h1>23/08/01</h1>
+1. 작업DB 포스터와 내용들 추가 반응형 작업해야함<br>
+2. 트렌드분석 select option 추가함<br>
+3. ott순위 박스오피스와 비슷하게 만듬<br>
+<hr>
+
  <h1>23/07/31</h1>
 <h1>회의내용 참고해서 만들기</h1>
 1. admin.html -> adminLogin.html
