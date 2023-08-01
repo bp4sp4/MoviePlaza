@@ -1,0 +1,31 @@
+.wrap{
+    display: block;
+    margin-left: 200px;
+}
+
+.show{
+    font-size: 30px;
+    color: black;
+    margin: 10px;
+    text-align: left;
+    font-family: 'GmarketSansMedium';
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.search-wrap{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#search-select{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 45%;
+    transform: translateX(-140%);
+}
