@@ -217,6 +217,13 @@ button {
      color: #323232;
 }
 
+.titlepage2 h2 {
+     font-size: 45px;
+     font-weight: bold;
+     line-height: 50px;
+     color: #323232;
+}
+
 .read_more {
      display: inline-block;
      background: #6dcff6;
@@ -468,6 +475,11 @@ ul.email li i {
      padding: 0;
 }
 
+.we2_do {
+     
+     position: inherit;
+     padding-bottom: 50px;
+}
 #bo_ho:hover {
      border: #292a2c solid 1px;
      transition: ease-in all 0.5s;
@@ -479,6 +491,16 @@ ul.email li i {
      
      height: 507px;
      margin-bottom: 26px;
+}
+
+.we_box2 {
+     width: 130px;
+     border: #e6e7e8 solid 1px;
+     transition: ease-in all 0.5s;
+     height: 200px;
+     margin-bottom: 100px;
+     margin-left: 90px;
+
 }
 .m-poster{
      max-width: 100%;
@@ -514,6 +536,20 @@ ul.email li i {
      display: block;
      margin-right: 0;
      background: #464646;
+}
+
+.we_box2 .read_more2 {
+     position: absolute;
+     text-align: center;
+     width: 50px;
+     height: 41px;
+     line-height: 41px;
+     margin: 0 auto;
+     display: block;
+     margin-right: 0;
+     color: #fff;
+     background: #6F7F9C;
+     opacity: 0.9;
 }
 
 #we1 .carousel-indicators {
