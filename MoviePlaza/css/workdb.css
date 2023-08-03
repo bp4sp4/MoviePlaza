@@ -1,6 +1,6 @@
 .wrap{
     display: block;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .show{
@@ -16,16 +16,33 @@
     font-weight: normal;
     font-style: normal;
 }
-.search-wrap{
-    display: flex;
-    justify-content: center;
-    
-}
 
-#search-select{
+.search-select{
+    display:flex;  
+    justify-content: center;  
+    margin: 0px 0px 50px 200px;
+}
+.selectbox{
+    position: relative; 
+    border: 1px solid #686868; 
+    left: -198px; 
+    width:5rem; 
+    height:3rem;  
+    text-align:center
+}
+.search {
+    width: 26rem;
+    height:3rem; 
+    border: 1px solid #686868; 
+    margin-left:-198px;
+}
+.submit {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 45%;
-    transform: translateX(-140%);
+    width: 5.5rem;
+    height:47.99px;
+    border:none;  
+    background: #686868;
+    color: #fff; 
+    cursor:pointer;  
+    
 }
