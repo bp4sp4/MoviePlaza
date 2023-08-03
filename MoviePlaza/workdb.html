@@ -21,7 +21,11 @@
    <link rel="stylesheet" href="css/responsive.css">
    <!-- awesome fontfamily -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&family=Roboto:wght@100&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/workdb.css">
+   
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -103,9 +107,9 @@
          <div class="row">
             <!-- Todo : 통합 검색 영역 (디자인해야함)-->
             <div class="col-md-12">
-               <div class="titlepage2 text_align_center">
-                  <h2>작품DB</h2>
-               </div>
+               
+                  <h2 class="title-txt">작품DB</h2>
+               
                <div class="search-select">
                   <select class="selectbox" id="test" onchange="Change()">
                   <option value="1">영화제목</option>
@@ -131,24 +135,39 @@
                         <div>
                            <div id="bo_ho" class="we_box text_align_left">
                               <a href=""><img class="m-poster" src="images/m_poster2.jpeg"></a>
-
                            </div>
                         </div>
                         <div class="wrap">
-                           <p class="show">타이틀 : 웃음장면이 넘친다</p>
-                           <p class="show">참여배우 : 마동석, 이다미, 이종석</p>
-                           <p class="show">제작진 : 홍길동</p>
-                           <p class="show">배급사 : 더좋은세상</p>
-                           <p class="show">포맷 : </p>
-                           <p class="show">장르 : 액션, 스릴러</p>
-                           <p class="show">러닝타임 : 120분</p>
-                           <p class="show">등급 : 15세</p>
-                           <p class="show">국적 : 한국</p>
-                           <p class="show">개봉일 : 2023년8월 or 2023년8월10일</p>
-                           <p class="show">촬영회차 : </p>
-                           <p class="show">상영타입 : 2D, 3D, IMAX</p>
-                           <p class="show">누적관객수 : 100만명</p>
-
+                           <div class="movie-tit"><strong>범죄도시3</strong></div>
+                           <ul class="movie-info">
+                              <li><span class="font2">2023.08.03</span> 개봉</li>
+                              <li><span><img class="clock" src="images/clock.png" alt="시계"></span><span class="font">105</span>분</li>
+                              <li><span class="font-color"><span class="font">15</span>세이상관람가</span></li>
+                              <li><span class="font">241.8</span>만명</li>
+                           </ul>
+                           <div class="overflow">
+                           <ul class="movie-detail">
+                              <li><em>장르</em><span class="movie-detail-font">범죄, 액션, 코미디, 스릴러, 느와르, 미스터리, 형사, 시대극</span></li>
+                              <li><em>감독</em><span class="movie-detail-font">이상용</span></li>
+                              <li><em>참여배우</em><span class="movie-detail-font">마동석, 이준혁, 야오키 무네타카, 배누리, 박지환, 이범수</span></li>
+                              <li><em>상영타입</em><span class="movie-detail-font">2D, IMAX, 4DX, SUPER 4D</span></li>
+                              <li><em>배급사</em><span class="movie-detail-font">HongFILM, BIGPUNCH, BAENTERTAINMENT</span></li>
+                              <li><em>배급사</em><span class="movie-detail-font">ABO, PULSM</span></li>
+                           </ul>
+                        </div>
+                        <div class="textareabox">
+                           <div class="textbox">
+                              <span><b>대체불가 괴물형사 마석도, 서울 광역수사대로 발탁!</b></span><br>
+                              <span>베트남 납치 살해범 검거 후 7년 뒤,</span><br>
+                              <span>‘마석도’(마동석)는 새로운 팀원들과 함께 살인사건을 조사한다.</span><br>
+                              <span>사건 조사 중, ‘마석도’는 신종 마약 사건이 연루되었음을 알게 되고 수사를 확대한다.</span><br>
+                              <span>한편, 마약 사건의 배후인 '주성철'(이준혁)은 계속해서 판을 키워가고</span><br>
+                              <span>약을 유통하던 일본 조직과 '리키'(아오키 무네타카)까지 한국에 들어오며</span><br>
+                              <span>사건의 규모는 점점 더 커져가는데...</span><br><br>
+                              <span><b>나쁜 놈들 잡는 데 이유 없고 제한 없다</b></span><br>
+                              <span<b>커진 판도 시원하게 싹 쓸어버린다!</b></span>
+                           </div>
+                        </div>
                         </div>
                      </div>
                   </div>

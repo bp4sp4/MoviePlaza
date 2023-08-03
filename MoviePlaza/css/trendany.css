@@ -1,7 +1,33 @@
-.selectbox{
-    position: absolute; 
-    border: 1px solid #000000; 
-    width:5rem; 
-    height:3rem;  
-    text-align:center
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #323232;
+    
+}
+
+.titlepage2 {
+    padding-bottom: 60px;
+}
+
+.titlepage2::before {
+    content: "";
+    position: absolute;
+    border: #323232 solid 5px;
+    border-width: 5px;
+    width: 80px;
+    z-index: 999;
+    margin-left: 30px;
+    left: 50%;
+    transform: translate(-85%);
+    right: 0px;
+    top: 55px;
+}
+
+.titlepage2 h2 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #323232;
 }

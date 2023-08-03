@@ -217,13 +217,33 @@ button {
      color: #323232;
 }
 
+
+
+.titlepage2 {
+     padding-bottom: 60px;
+}
+
+.titlepage2::before {
+     content: "";
+     position: absolute;
+     border: #fff solid 5px;
+     border-width: 5px;
+     width: 80px;
+     z-index: 999;
+     margin-left: 30px;
+     left: 0;
+     right: 0;
+     top: 55px;
+}
+
 .titlepage2 h2 {
      font-size: 45px;
      font-weight: bold;
      line-height: 50px;
      color: #323232;
-     margin-bottom: 50px;
 }
+
+
 
 .read_more {
      display: inline-block;
