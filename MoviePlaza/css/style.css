@@ -210,38 +210,6 @@ button {
      top: 55px;
 }
 
-.titlepage h2 {
-     font-size: 45px;
-     font-weight: bold;
-     line-height: 50px;
-     color: #323232;
-}
-
-
-
-.titlepage2 {
-     padding-bottom: 60px;
-}
-
-.titlepage2::before {
-     content: "";
-     position: absolute;
-     border: #fff solid 5px;
-     border-width: 5px;
-     width: 80px;
-     z-index: 999;
-     margin-left: 30px;
-     left: 0;
-     right: 0;
-     top: 55px;
-}
-
-.titlepage2 h2 {
-     font-size: 45px;
-     font-weight: bold;
-     line-height: 50px;
-     color: #323232;
-}
 
 
 
@@ -326,7 +294,7 @@ header
 
 .header {
      width: 100%;
-     background: rgba(39, 43, 44, 0.87);
+     background: #00498c;
      height: 106px;
      padding: 37px 30px;
      position: absolute;
@@ -954,7 +922,7 @@ ul.email li i {
 /** footer **/
 
 .footer {
-     background: #222222;
+     background: #00498c;
      padding-top: 90px
 }
 
@@ -1059,7 +1027,7 @@ ul.social_icon li a:hover {
 }
 
 .copyright {
-     background: #151515;
+     background: #001f3b;
      margin-top: 80px;
      padding: 20px 0px;
 }
