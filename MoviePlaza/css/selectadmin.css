@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+  }
+
+  .title > a {
+    color: white;
+  }
+
+#wrap{
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrap #memberadmin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 50px;
+    width: 500px;
+    height: 500px;
+    color: #000000;
+    background-color: rgb(181, 214, 146);
+    
+}
+#wrap #movieadmin{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 50px;
+    width: 500px;
+    height: 500px;
+    color: #000000;
+    background-color: rgb(181, 214, 146);
+}

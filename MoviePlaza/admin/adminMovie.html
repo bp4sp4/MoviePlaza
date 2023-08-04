@@ -7,7 +7,6 @@
   <title>관리자페이지</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/tailwind.output.css" />
-  <link rel="stylesheet" href="./assets/css/searchform.css">
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
   <script src="./assets/js/init-alpine.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" />
@@ -21,8 +20,8 @@
     <!-- Desktop sidebar -->
     <aside class="z-20 hidden w-64 overflow-y-auto bg-white dark:bg-gray-800 md:block flex-shrink-0">
       <div class="py-4 text-gray-500 dark:text-gray-400">
-        <a class="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200" href="/index.html">
-          회원어드민
+        <a class="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200" href="../index.html">
+          영화어드민
         </a>
         <ul class="mt-6">
           <li class="relative px-6 py-3">
@@ -562,16 +561,6 @@
 
           <!-- New Table -->
           <!-- 최대 10명으로 나와짐-->
-          <div class="search-select">
-            <select class="selectbox">
-            <option value="1">이름</option>
-            <option value="2">아이디</option>
-             </select>
-               <form action="" method="" >
-                  <input type="search" class="search" name="keyword">
-                  <input style="border: 1px solid #3b4050;" type="submit" class="submit" value="검색">
-               </form>
-            </div>
           <div class="w-full overflow-hidden rounded-lg shadow-xs">
             <div class="w-full overflow-x-auto">
               <table class="w-full whitespace-no-wrap">
@@ -605,9 +594,8 @@
                     <td class="px-4 py-3 text-sm">
                      10대
                     </td>
-                    <td>
+                    <td class="px-4 py-3 text-sm">
                       <button class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">활성화</button>
-                      <button class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">비활성화</button>
                     </td>
                   </tr>
 
@@ -630,9 +618,8 @@
                     <td class="px-4 py-3 text-sm">
                       30대
                     </td>
-                    <td>
+                    <td class="px-4 py-3 text-sm">
                       <button class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">활성화</button>
-                      <button class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">비활성화</button>
                     </td>
                   </tr>
 
@@ -654,9 +641,8 @@
                     <td class="px-4 py-3 text-sm">
                       20대
                     </td>
-                    <td>
+                    <td class="px-4 py-3 text-sm">
                       <button class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">활성화</button>
-                      <button class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">비활성화</button>
                     </td>
                   </tr>
                 </tbody>
@@ -731,9 +717,7 @@
               </span>
             </div>
           </div>
-          <div class="btn-wrap">
-          <button class="list">전체목록</button>
-        </div>
+
           <!-- Charts -->
           <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
             Charts
