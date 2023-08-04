@@ -302,6 +302,15 @@ header
      box-shadow: 3px 0 13px rgba(30, 30, 30, 0.90);
 }
 
+.header2 {
+     width: 100%;
+     background: #002446;
+     height: 106px;
+     padding: 37px 30px;
+     position: absolute;
+     z-index: 999;
+     box-shadow: 3px 0 13px rgba(30, 30, 30, 0.90);
+}
 
 /*--------------------------------------------------------------------- 
 menu section
@@ -495,6 +504,13 @@ ul.email li i {
      height : 100%;
      object-fit: cover;
 }
+.m-poster2{
+     max-width: 100%;
+     border-radius: 10px;
+     height : 100%;
+     object-fit: cover;
+     
+}
 
 .we_box h3 {
      color: #292929;
@@ -538,6 +554,7 @@ ul.email li i {
      color: #fff;
      background: #6F7F9C;
      opacity: 0.9;
+     border-radius: 10px;
 }
 
 #we1 .carousel-indicators {

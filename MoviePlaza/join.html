@@ -5,12 +5,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<base href="/">
-<link rel="stylesheet" type="text/css" href="css/login/enroll.css">
+<link rel="stylesheet" href="css/login/enroll.css">
 <title>무비플라자 : 회원가입</title>
 </head>
 <body>
-	<form action="enroll.do" method="post" onsubmit="return validate();">
+	<form action="" method="post">
 		<div class="wrap">
 			<div class="login">
 				<h3 text-align="center" style="font-family: 'Noto Sans KR', sans-serif; font-size : 40px">회원 가입</h3><br>
@@ -21,7 +20,7 @@
 						<div class="emailchk">
 					<!--이메일 중복확인-->
 					<input type="button" class="bttn" value="중복확인"
-						onclick="return validateMail();"> <span id="emailStatus"></span>
+						onclick=""> <span id="emailStatus"></span>
 						</div>
 				</div>
 				<!--비밀번호 확인-->
@@ -61,7 +60,7 @@
 				<br>
 				<div>
 					<input class="submit2" type="submit" value="가입하기">&nbsp;
-					<a id="mainmove" href="index.html">홈으로</a>
+					<a id="mainmove" href="/MoviePlaza/index.html">홈으로</a>
 				</div>
 	</form>
 
