@@ -36,6 +36,7 @@
     cursor: pointer;
     width: 200px;
     height: 63px;
+    font-size: 1.313rem;
     }
     
 }
@@ -78,6 +79,7 @@
     cursor: pointer;
     width: 200px;
     height: 63px;
+    font-size: 1.313rem;
     }
 }
 
@@ -119,6 +121,7 @@
     cursor: pointer;
     width: 200px;
     height: 63px;
+    font-size: 1.313rem;
     }  
 }
 
@@ -160,6 +163,7 @@
     cursor: pointer;
     width: 200px;
     height: 63px;
+    font-size: 1.313rem;
     }
     
 }
@@ -177,6 +181,7 @@
     line-height: 50px;
     color: #323232;
     margin-bottom: 30px;
+
 }
 
 .clock{

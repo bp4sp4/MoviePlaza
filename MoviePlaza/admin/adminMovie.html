@@ -7,9 +7,11 @@
   <title>관리자페이지</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/tailwind.output.css" />
+  <link rel="stylesheet" href="./assets/css/searchform.css">
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
   <script src="./assets/js/init-alpine.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" />
+  <link rel="stylesheet" href="./assets/css/adminmovie.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" defer></script>
   <script src="./assets/js/charts-lines.js" defer></script>
   <script src="./assets/js/charts-pie.js" defer></script>
@@ -558,7 +560,15 @@
               </div>
             </div>
           </div>
-
+          <div class="search-select">
+            <select class="selectbox">
+            <option value="1">영화제목</option>
+             </select>
+               <form action="" method="" >
+                  <input type="search" class="search" name="keyword">
+                  <input style="border: 1px solid #3b4050;" type="submit" class="submit" value="검색">
+               </form>
+            </div>
           <!-- New Table -->
           <!-- 최대 10명으로 나와짐-->
           <div class="w-full overflow-hidden rounded-lg shadow-xs">
@@ -567,83 +577,75 @@
                 <thead>
                   <tr
                     class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800 " style="text-align: left;">
-                    <th class="px-4 py-3">이름</th>
-                    <th class="px-4 py-3">아이디</th>
-                    <th class="px-4 py-3">닉네임</th>
-                    <th class="px-4 py-3">성별</th>
-                    <th class="px-4 py-3">연령대</th>
-                    <th class="px-4 py-3">로그인제한</th>
+                    <th class="px-4 py-3">영화제목</th>
+                    <th class="px-4 py-3">포스터</th>
+                    <th class="px-4 py-3">개봉일</th>
+                    <th class="px-4 py-3">제작비</th>
                   </tr>
                 </thead>
                 <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
                   <tr class="text-gray-700 dark:text-gray-400">
                     <td class="px-4 py-3">
-                          <p class="font-semibold">제리</p>
+                          <p class="font-semibold">영웅</p>
                         </div>
                       </div>
                     </td>
                     <td class="px-4 py-3 text-sm">
-                      user001
+                      어떤형식으로할지
                     </td>
                     <td class="px-4 py-3 text-xs">
-                      너랑유미랑
+                      <input>
+                      <button id="fixbtn" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple ">입력</button>
                     </td>
                     <td class="px-4 py-3 text-xs">
-                      남
+                      1000만원
+                      <button id="fixbtn" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple ">추가</button>
+                      <button id="fixbtn" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple ">변경</button>
                     </td>
-                    <td class="px-4 py-3 text-sm">
-                     10대
-                    </td>
-                    <td class="px-4 py-3 text-sm">
-                      <button class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">활성화</button>
-                    </td>
+               
                   </tr>
 
                   <tr class="text-gray-700 dark:text-gray-400">
                     <td class="px-4 py-3">
                       <div class="flex items-center">
                         <!-- Avatar with inset shadow -->
-                          <p class="font-semibold">아트록스</p>
+                          <p class="font-semibold">뉴진스</p>
                       </div>
                     </td>
                     <td class="px-4 py-3 text-sm">
-                      user001
+                      ??
                     </td>
                     <td class="px-4 py-3 text-xs">
-                      김민재04
+                      <input>
+                      <button id="fixbtn" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple ">입력</button>
                     </td>
                     <td class="px-4 py-3 text-xs">
-                      남
+                      1000만원
+                      <button id="fixbtn" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple ">추가</button>
+                      <button id="fixbtn" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple ">변경</button>
                     </td>
-                    <td class="px-4 py-3 text-sm">
-                      30대
-                    </td>
-                    <td class="px-4 py-3 text-sm">
-                      <button class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">활성화</button>
-                    </td>
+                  
                   </tr>
 
                   <tr class="text-gray-700 dark:text-gray-400">
                     <td class="px-4 py-3">
                       <div class="flex items-center">
-                          <p class="font-semibold">자야</p>
+                          <p class="font-semibold">BETELGEUSE</p>
                       </div>
                     </td>
                     <td class="px-4 py-3 text-sm">
-                      user001
+                      ??
                     </td>
                     <td class="px-4 py-3 text-xs">
-                      라칸
+                      <input>
+                      <button id="fixbtn" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple ">입력</button>
                     </td>
                     <td class="px-4 py-3 text-xs">
-                     여
+                      1000만원
+                      <button id="fixbtn" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple ">추가</button>
+                      <button id="fixbtn" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple ">변경</button>
                     </td>
-                    <td class="px-4 py-3 text-sm">
-                      20대
-                    </td>
-                    <td class="px-4 py-3 text-sm">
-                      <button class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">활성화</button>
-                    </td>
+                   
                   </tr>
                 </tbody>
               </table>
@@ -717,7 +719,9 @@
               </span>
             </div>
           </div>
-
+          <div class="btn-wrap">
+            <button class="list">전체목록</button>
+          </div>
           <!-- Charts -->
           <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
             Charts
