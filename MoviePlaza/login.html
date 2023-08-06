@@ -1,58 +1,81 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
+
 <head>
-	<link rel="stylesheet" href="css/login/login.css" type="text/css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login/login.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-	<title>무비플라자 : 로그인</title>
+    <title>무비플라자 : 로그인</title>
 </head>
 <body>
-	<form action="" method="">
-		<div class="wrap">
-			<div class="login">
-				<a href="index.html">
-					<h3 style="font-size:50px; 	font-family: 'Noto Sans KR', sans-serif;">MoviePlaza</h3>
-				</a>
-				<!--이메일 입력-->
-				<div class="login_id">
-					<h4 style="	font-family: 'Noto Sans KR', sans-serif;">이메일</h4>
-					<input type="text" name="m_id" class="pos" placeholder="Email(이메일)">
-				</div>
-				<!--비밀번호 입력-->
-				<div class="login_pw">
-					<h4 style="	font-family: 'Noto Sans KR', sans-serif;">비밀번호</h4>
-					<input type="password" name="m_pw" class="pos" placeholder="비밀번호">
-				</div>
-				<!--로그인 버튼-->
-				<div class="submit">
-					<input style="	font-family: 'Noto Sans KR', sans-serif;" type="submit" value="로그인">
-				</div>
-				<br>
-				<!--아이디 찾기-->
-				<div class="loginmenu">
-					<div class="schid">
-						<c:url var="mvfindId" value="/moveIdRecovery.do" />
-						<a href="idfind.html">
-							<p style="font-family: 'Noto Sans KR', sans-serif;">아이디 찾기</p>
-						</a>
-					</div>
-					<span style="margin-top: 8px;">|</span>
-				<!--비밀번호 찾기-->
-				<div class="schpw">
-					<c:url var="mvfindPwd" value="/movePwdRecovery.do" />
-					<a href="pwfind.html">
-						<p style="	font-family: 'Noto Sans KR', sans-serif;">비밀번호 찾기</p>
-					</a>
-				</div>
-				</div>
+    <form action="" method="">
+        <div class="wrap">
+            <div class="login">
+                <a href="index.html">
+                    <h3 style="font-size:50px;  font-family: 'Noto Sans KR', sans-serif;">MoviePlaza</h3>
+                </a>
+                <!--이메일 입력-->
+                <div class="login_id">
+                    <h4 style=" font-family: 'Noto Sans KR', sans-serif;">이메일</h4>
+                    <input type="text" name="m_id" class="pos" placeholder="Email(이메일)">
                 </div>
-			</div>
-		</div>
-	</form>
+                <!--비밀번호 입력-->
+                <div class="login_pw">
+                    <h4 style=" font-family: 'Noto Sans KR', sans-serif;">비밀번호</h4>
+                    <input type="password" name="m_pw" class="pos" placeholder="비밀번호">
+                </div>
+                <!--로그인 버튼-->
+                <div class="submit">
+                    <input style="  font-family: 'Noto Sans KR', sans-serif;" type="submit" value="로그인">
+                </div>
+                <br>
+                <!--아이디 찾기-->
+                <div class="loginmenu">
+                    <div class="schid">
+                        <c:url var="mvfindId" value="/moveIdRecovery.do" />
+                        <a href="idfind.html">
+                            <p style="font-family: 'Noto Sans KR', sans-serif;">아이디 찾기</p>
+                        </a>
+                    </div>
+                    <span style="margin-top: 8px;">|</span>
+                <!--비밀번호 찾기-->
+                <div class="schpw">
+                    <c:url var="mvfindPwd" value="/movePwdRecovery.do" />
+                    <a href="pwfind.html">
+                        <p style="  font-family: 'Noto Sans KR', sans-serif;">비밀번호 찾기</p>
+                    </a>
+                </div>
+                </div>
+                <br>
+                <!--카카오 로그인 -->
+                <div id="kakao_id_login" class="kakao_id_login" style="text-align: center">
+                    <a href="" class="cp">
+                        <img class="sothumb" src="images/kakao_login_medium_wide.png" alt="카카오로그인">
+                    </a>
+                </div>
+                <!-- 네이버 로그인 -->
+                <div id="ndfin" style="text-align:center">
+                    <a href="" id='.cp_naver'>
+                        <img class="sothumb" src="images/naver.png" alt="네이버로그인">
+                    </a>
+                </div>
+                <div style="height : 60px">
+                    <script src="https://accounts.google.com/gsi/client" async defer></script>
+                    <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID"
+                        data-login_uri="https://your.domain/your_login_endpoint" data-auto_prompt="false">
+                    </div>
+                    <div class="g_id_signin" style="width: 400px;" data-type="standard" data-size="large"
+                        data-theme="outline" data-text="sign_in_with" data-shape="rectangular"
+                        data-logo_alignment="left">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
 </body>
 
 </html>
