@@ -254,6 +254,45 @@ File Name: responsive.css
         top: 101%;
     }
 
+    #we2 a.carousel-control-next {
+        right: 26%;
+    }
+
+    #we2 a.carousel-control-prev {
+        left: 25%;
+    }
+
+    #we2 a.carousel-control-next,
+    #we2 a.carousel-control-prev {
+        top: 101%;
+    }
+
+    #we3 a.carousel-control-next {
+        right: 26%;
+    }
+
+    #we3 a.carousel-control-prev {
+        left: 25%;
+    }
+
+    #we3 a.carousel-control-next,
+    #we3 a.carousel-control-prev {
+        top: 101%;
+    }
+
+    #we4 a.carousel-control-next {
+        right: 26%;
+    }
+
+    #we4 a.carousel-control-prev {
+        left: 25%;
+    }
+
+    #we4 a.carousel-control-next,
+    #we4 a.carousel-control-prev {
+        top: 101%;
+    }
+
     .titlepage h2 {
         font-size: 24px;
         line-height: 54px;
