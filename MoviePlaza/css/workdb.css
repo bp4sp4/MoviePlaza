@@ -1,8 +1,19 @@
+/* 폰트 */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 반응형 모바일 */
 @media (max-width: 767px) {
+
+    /* 포스터 오른쪽 컨텐츠 영역  */
     .wrap {
         display: block;
         width: 400px;
-      
     }
 
     .movie-detail {
@@ -18,13 +29,14 @@
         text-overflow: ellipsis;
     }
 
+    /* 여기까지 */
     .search-wrap {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 50px;
     }
-
+    /* 검색 영역 */
     .search-container {
         display: flex;
         border-radius: 50px;
@@ -56,8 +68,10 @@
         height: 63px;
         font-size: 1.313rem;
     }
-
+    /* 여기까지 */
 }
+
+/* 태블릿 가로 세로 */
 
 @media (min-width: 768px) and (max-width: 991px) {
     .search-wrap {
@@ -141,15 +155,19 @@
         height: 63px;
         font-size: 1.313rem;
     }
-    
+
 }
+/* 여기까찌 */
+
+/* 웹 기본 */
 
 @media (min-width: 1200px) {
     .wrap {
         display: block;
         margin-left: 50px;
-    
+
     }
+
     .search-wrap {
         display: flex;
         justify-content: center;
@@ -189,12 +207,14 @@
         height: 63px;
         font-size: 1.313rem;
     }
+
     .movie-detail {
         width: 554px;
         text-align: left;
         color: #686868;
         font-size: 21px;
     }
+
     .movie-detail li {
         white-space: nowrap;
         overflow: hidden;
@@ -202,10 +222,10 @@
     }
 
 }
+/* 여기까지 */
 
 
-
-
+/* 작품 DB 타이틀 */
 .title-txt {
     text-align: center;
     font-size: 45px;
@@ -216,16 +236,42 @@
 
 }
 
-.clock {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-    transform: translateX(10px);
-    background-color: #fff;
+.title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #323232;
+
 }
 
+.titlepage2 {
+    padding-bottom: 60px;
+}
+
+.titlepage2::before {
+    content: "";
+    position: absolute;
+    border: #323232 solid 5px;
+    border-width: 5px;
+    width: 80px;
+
+    margin-left: 30px;
+    left: 50%;
+    transform: translate(-85%);
+    right: 0px;
+    top: 55px;
+}
+
+.titlepage2 h2 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #323232;
+}
+
+
+/* 영화 컨텐츠 영역 */
 .movie-tit {
     display: flex;
     color: black;
@@ -291,6 +337,16 @@
     color: rgb(255, 145, 0);
 }
 
+.clock {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    transform: translateX(10px);
+    background-color: #fff;
+}
+
 
 .movie-detail li {
     position: relative;
@@ -336,50 +392,11 @@
     color: #000;
 }
 
+/* --------------여기까지------------- */
 
 
 
 
 
 
-@font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.title {
-    text-align: center;
-    font-size: 45px;
-    font-weight: bold;
-    line-height: 50px;
-    color: #323232;
-
-}
-
-.titlepage2 {
-    padding-bottom: 30px;
-}
-
-.titlepage2::before {
-    content: "";
-    position: absolute;
-    border: #323232 solid 5px;
-    border-width: 5px;
-    width: 80px;
-    
-    margin-left: 30px;
-    left: 50%;
-    transform: translate(-85%);
-    right: 0px;
-    top: 55px;
-}
-
-.titlepage2 h2 {
-    font-size: 45px;
-    font-weight: bold;
-    line-height: 50px;
-    color: #323232;
-}
 
