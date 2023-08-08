@@ -15,14 +15,207 @@
    align-items: center;
    flex-direction: column; 
  }
+ .textForm {
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  width: 350px;
+  margin: 10px;
+  padding: 10px 10px;
+ }
+  
+.textForm2{
+  position: relative;
+  width : 230px;
+  height : 47px;
+  vertical-align: center;
+   border-radius: 30px;
+   border: 1px solid lightgray;
+   margin-right : 120px;
+   padding: 10px 10px;
+   margin-bottom : 10px;
+}
+
+.textForm3{
+  position: relative;
+  width: 230px;
+  height : 47px;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  margin-right : 120px;
+  padding: 10px 10px;
+  margin-bottom : 10px;
+  margin-top: 10px;
+}
+
+ .submit2 {
+  width: 169px;
+  height: 39px;
+  border: 0;
+  outline: none;
+  border-radius: 40px;
+ background : #00498c;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  color:white;
+  cursor: pointer;
+}
+
+#mainmove{
+  position: relative;
+  border : 0;
+  background : #00498c;
+  color : white;
+  outline : none;
+  border-radius : 40px;
+  text-align : center;
+  font-size: 1.2em;
+  line-height:48px;
+  letter-spacing : 2px;
+  padding: 5.5px 55px;
+ text-decoration-line: none;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  
+  .login {
+    width: 70%;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  .textForm {
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    width: 400px;
+    margin: 10px;
+    padding: 10px 10px;
+  }
+
+    
+.textForm2{
+  position: relative;
+  width : 280px;
+  height : 50px;
+  vertical-align: center;
+   border-radius: 30px;
+   border: 1px solid lightgray;
+   margin-right : 120px;
+   padding: 10px 10px;
+   margin-bottom : 10px;
+}
+
+   .submit2 {
+    width: 200px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+   background : #00498c;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    color:white;
+    cursor: pointer;
+  }
+
+  #mainmove{
+    border : 0;
+    background : #00498c;
+    color : white;
+    outline : none;
+    border-radius : 40px;
+    text-align : center;
+    font-size: 1.2em;
+    line-height:48px;
+    letter-spacing : 2px;
+    padding: 5.5px 65px;
+   text-decoration-line: none;
+ }
+ .textForm3{
+  position: relative;
+  width: 275px;
+  height : 50px;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  margin-right : 120px;
+  padding: 10px 10px;
+  margin-bottom : 10px;
+  margin-top: 10px;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .login {
+    width: 70%;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  .textForm {
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    width: 400px;
+    margin: 10px;
+    padding: 10px 10px;
+  }
 
+    
+.textForm2{
+  position: relative;
+  width : 280px;
+  height : 50px;
+  vertical-align: center;
+   border-radius: 30px;
+   border: 1px solid lightgray;
+   margin-right : 120px;
+   padding: 10px 10px;
+   margin-bottom : 10px;
+}
+
+   .submit2 {
+    width: 200px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+   background : #00498c;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    color:white;
+    cursor: pointer;
+  }
+
+  #mainmove{
+    border : 0;
+    background : #00498c;
+    color : white;
+    outline : none;
+    border-radius : 40px;
+    text-align : center;
+    font-size: 1.2em;
+    line-height:48px;
+    letter-spacing : 2px;
+    padding: 5.5px 65px;
+   text-decoration-line: none;
+ }
+ .textForm3{
+  position: relative;
+  width: 275px;
+  height : 50px;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  margin-right : 120px;
+  padding: 10px 10px;
+  margin-bottom : 10px;
+  margin-top: 10px;
+}
 }
 
 @media (min-width: 1200px) {
@@ -36,6 +229,65 @@
       align-items: center;
       flex-direction: column; 
     }
+    .textForm {
+      border-radius: 30px;
+      border: 1px solid lightgray;
+      width: 400px;
+      margin: 10px;
+      padding: 10px 10px;
+    }
+
+      
+  .textForm2{
+    position: relative;
+    width : 280px;
+    height : 50px;
+    vertical-align: center;
+     border-radius: 30px;
+     border: 1px solid lightgray;
+     margin-right : 120px;
+     padding: 10px 10px;
+     margin-bottom : 10px;
+ }
+
+     .submit2 {
+      width: 200px;
+      height: 40px;
+      border: 0;
+      outline: none;
+      border-radius: 40px;
+     background : #00498c;
+      font-size: 1.2em;
+      letter-spacing: 2px;
+      color:white;
+      cursor: pointer;
+    }
+
+    #mainmove{
+      border : 0;
+      background : #00498c;
+      color : white;
+      outline : none;
+      border-radius : 40px;
+      text-align : center;
+      font-size: 1.2em;
+      line-height:48px;
+      letter-spacing : 2px;
+      padding: 5.5px 65px;
+     text-decoration-line: none;
+   }
+   .textForm3{
+    position: relative;
+    width: 275px;
+    height : 50px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    margin-right : 120px;
+    padding: 10px 10px;
+    margin-bottom : 10px;
+    margin-top: 10px;
+ }
+   
 }
 
 
@@ -60,13 +312,7 @@
     background: rgba(172, 140, 140, 0.1);
   }
 
-  .textForm {
-    border-radius: 30px;
-    border: 1px solid lightgray;
-    width: 400px;
-    margin: 10px;
-    padding: 10px 10px;
-  }
+
   
   
   .id {
@@ -118,51 +364,14 @@
     height:25px;
     background: none;
   }
-    .submit2 {
-      width: 200px;
-      height: 40px;
-      border: 0;
-      outline: none;
-      border-radius: 40px;
-     background : #00498c;
-      font-size: 1.2em;
-      letter-spacing: 2px;
-      color:white;
-      cursor: pointer;
-    }
+
 
   .loginmenu {
       display: flex;
       flex-direction: row;
       font-size: 20px;
   }
-  #mainmove{
-     border : 0;
-     background : #00498c;
-     color : white;
-     width: 200px;
-     height : 50px;
-     outline : none;
-     border-radius : 40px;
-     text-align : center;
-     font-size: 1.2em;
-     line-height:48px;
-     letter-spacing : 2px;
-     padding: 8.5px 65px;
-    text-decoration-line: none;
-  }
-  
-  .textForm2{
-     position: relative;
-     width : 280px;
-     height : 50px;
-     vertical-align: center;
-      border-radius: 30px;
-      border: 1px solid lightgray;
-      margin-right : 120px;
-      padding: 10px 10px;
-      margin-bottom : 10px;
-  }
+
   .emailchk .bttn{
   position: absolute;
       right: -120px;
@@ -190,17 +399,7 @@
     background-position: right;
   }
 
-  .textForm3{
-    position: relative;
-    width: 275px;
-    height : 50px;
-    border-radius: 30px;
-    border: 1px solid lightgray;
-    margin-right : 120px;
-    padding: 10px 10px;
-    margin-bottom : 10px;
-    margin-top: 10px;
- }
+
 
   .gender{
     width: 100%;

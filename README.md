@@ -14,6 +14,8 @@
 
 <h1>23/08/08</h1>
 1. html,css 주석달기<br>
+2. 로그인쪽 반응형 태블릿 반영<br>
+3. MovilePlaza 전체 <a href="https://www.figma.com/file/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?type=design&node-id=0-1&mode=design&t=TlKGTC03a9pZN7qv-0">figma</a>생성
 
 <h1>23/08/07 테스트후 수정</h1>
 1. workdb 모바일디자인이상발견 -> 검색버튼쪽 스크립트로 해결<br>
