@@ -4,9 +4,6 @@
 # 수정사항 적용 완료 (웹 O, 모바일 부분적용, 테블릿(X)
 
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=[wakatime의 bp4sp4])](https://wakatime.com/@jogilsang)
-
-
 <h2>To-Do-List</h2>
 <ul>
 <li> [ ] 트렌드분석 모바일 swiper.js 수정</li>
