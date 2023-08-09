@@ -14,4 +14,4 @@ jobs:
         env:
           GH_TOKEN: ${{ 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 }}
           GIST_ID: waka
-          WAKATIME_API_KEY: ${{ waka_0deb97a9-d672-4fef-8684-de43e1d3d77e }}
+          WAKATIME_API_KEY: ${{ waka_361ec07d-f488-4321-ba27-54b32dfae717 }}
