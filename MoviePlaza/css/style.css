@@ -322,7 +322,7 @@ menu section
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 0px 30px;
+     padding: 0px 20px;
      color: #fff;
      font-size: 17px;
      line-height: 20px;
@@ -366,7 +366,7 @@ ul.email {
 }
 @media (min-width: 1200px) {
      ul.email li {
-          padding: 0px 35px;
+          padding: 0px 20px;
      }
 }
 
