@@ -1,17 +1,19 @@
 # MoviePlaza
- MoviePlaza
 
-# 수정사항 적용 완료 (웹 O, 모바일 부분적용, 테블릿부분적용 
+MoviePlaza.
+
+# 수정사항 적용 완료 (웹 O, 모바일 부분적용, 테블릿부분적용
+
 디자인 보기용 임시 홈페이지 - <a target="_blank" href="https://bp4sp4.github.io/dd/">MoviePlaza</a><br>
 봐야할 부분 - 작품DB, 트렌드분석, OTT순위, 로그인 , SNSJoin, Admin, 마이페이지
 
 <h2>To-Do-List</h2>
 <ul>
+<li> [x] 어드민 주석달기</li>
+<li> [x] 작품DB - 웹, 태블릿, 모바일<li>
 <li> [ ] 트렌드분석 모바일 swiper.js 수정</li>
 <li> [ ] 트렌드분석 모바일 3개씩 보기에하기</li>
 <li> [ ] ott순위 2개씩보이게 수정</li>
-<li> [ ] 자잘자잘한 디자인,버그 수정</li>
-<li> [ ] 어드민 주석달기</li>
 </ul>
 
 <h1>23/08/08</h1>
@@ -50,7 +52,6 @@
  2. 트렌드분석 일별, 주간별, 월별 , 연도별 Swiperjs 추가<br>
  3. OTT순위 비쥬얼업데이트, 페이지네이션 프론트작업 해야함<br>
 
-
  <h1>23/08/01</h1>
 1. 작업DB 포스터와 내용들 추가 반응형 작업해야함<br>
 2. 트렌드분석 select option 추가함<br>
@@ -61,7 +62,6 @@
 <h1>회의내용 참고해서 만들기</h1>
 1. admin.html -> adminLogin.html<br>
 2. 네비게이션바 -> 로그인, 로그아웃 추가<br>
-
 
  <h1>23/07/23</h1>
  <h2>반응형 웹디자인 로그인영역</h2>
@@ -93,7 +93,6 @@
 <h3><del>5. 로그인 SNS 디자인</del></h3>
 <h3><del>6. SNS 로그인 디자인</del></h3>
 
-
 <h3>삭제예정</h3>
 Contact Us 협의<br>
 <br>
@@ -109,4 +108,3 @@ Contact Us 협의<br>
 <h3>1. admin page <br>
 2. myinfo.page <br>
 3. myinfoupdate</h3>
-
