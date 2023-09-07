@@ -2,7 +2,7 @@
  MoviePlaza
 
 # 수정사항 적용 완료 (웹 O, 모바일 부분적용, 테블릿부분적용 
-디자인 보기용 임시 홈페이지 - <a href="https://bp4sp4.github.io/dd/" target="_blank">MoviePlaza</a><br>
+디자인 보기용 임시 홈페이지 - <a target="_blank" href="https://bp4sp4.github.io/dd/">MoviePlaza</a><br>
 봐야할 부분 - 작품DB, 트렌드분석, OTT순위, 로그인 , SNSJoin, Admin, 마이페이지
 
 <h2>To-Do-List</h2>
@@ -17,7 +17,7 @@
 <h1>23/08/08</h1>
 1. html,css 주석달기<br>
 2. 로그인쪽 반응형 태블릿 반영<br>
-3. MovilePlaza 전체 <a href="https://www.figma.com/file/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?type=design&node-id=0-1&mode=design&t=TlKGTC03a9pZN7qv-0">figma</a>생성
+3. MovilePlaza 전체 <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?type=design&node-id=0-1&mode=design&t=TlKGTC03a9pZN7qv-0">figma</a>생성
 
 <h1>23/08/07 테스트후 수정</h1>
 1. workdb 모바일디자인이상발견 -> 검색버튼쪽 스크립트로 해결<br>
