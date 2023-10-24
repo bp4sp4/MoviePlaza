@@ -1,4 +1,4 @@
-# MoviePlaza
+# MoviePlaza - 퍼블리싱 완료
 
 MoviePlaza.
 
@@ -11,9 +11,9 @@ MoviePlaza.
 <ul>
 <li> [x] 어드민 주석달기</li>
 <li> [x] 작품DB - 웹, 태블릿, 모바일<li>
-<li> [ ] 트렌드분석 모바일 swiper.js 수정</li>
-<li> [ ] 트렌드분석 모바일 3개씩 보기에하기</li>
-<li> [ ] ott순위 2개씩보이게 수정</li>
+<li> [x] 트렌드분석 모바일 swiper.js 수정</li>
+<li> [x] 트렌드분석 모바일 3개씩 보기에하기</li>
+<li> [x] ott순위 2개씩보이게 수정</li>
 </ul>
 
 <h1>23/08/08</h1>
