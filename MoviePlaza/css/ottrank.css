@@ -35,12 +35,65 @@
   color: #323232;
 }
 
-/* 말줄임 영역 설정 */
-.max-size {
-  max-width: 300px;
-  margin: 10px;
+.movie-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.nav-pag {
-  margin-top: -150px;
-  margin-bottom: 100px;
+.movie-box .movie-ott {
+  width: 230px;
+  border-radius: 5px;
+  height: 650px;
+
+  margin: 10px;
+  background: #002a50;
+}
+.movie-box .movie-ott .movie-ott-top {
+  text-align: center;
+}
+.movie-ott-top .tm {
+  font-size: 15px;
+  color: #919090;
+  margin-top: 10px;
+}
+.movie-ott-top .ot {
+  margin-top: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.movie-img {
+  margin-top: 15px;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+.movie-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.movie-list {
+  width: 100%;
+  height: 299px;
+  background: #00498c;
+  border-radius: 5px;
+}
+
+.movie-list ul {
+  padding: 17px 0 0 19px;
+  background: #00498c;
+}
+.movie-list ul li {
+  color: #d1d3c5;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.movie-list ul li span {
+  color: rgb(133, 133, 133);
+  font-size: 15px;
+  margin-right: 8px;
 }
