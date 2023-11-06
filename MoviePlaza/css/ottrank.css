@@ -97,3 +97,11 @@
   font-size: 15px;
   margin-right: 8px;
 }
+
+.movie-list ul li .margin-2 {
+  margin-right: 10px;
+}
+
+.movie-list ul li .margin-3 {
+  margin-right: 3px;
+}
