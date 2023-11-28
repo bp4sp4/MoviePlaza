@@ -13,7 +13,7 @@ MoviePlaza.
       <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
   <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/fontawesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white">
-  
+  </div>
 작업기간 - 23/06 ~ 23/11 - 5개월 
 
 MovilePlaza Demo - <a target="_blank" href="https://bp4sp4.github.io/MoviePlazaDemo/">MoviePlaza</a><br>
