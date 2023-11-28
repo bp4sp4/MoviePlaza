@@ -5,6 +5,7 @@ MoviePlaza.
 # 수정사항 적용 완료 (웹 O, 모바일 부분적용, 테블릿부분적용)
 
 디자인 보기용 임시 홈페이지 - <a target="_blank" href="https://bp4sp4.github.io/MoviePlazaDemo/">MoviePlaza</a><br>
+3. MovilePlaza 전체 <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?type=design&node-id=0-1&mode=design&t=TlKGTC03a9pZN7qv-0">figma</a>
 봐야할 부분 - 작품DB, 트렌드분석, OTT순위, 로그인 , SNSJoin, Admin, 마이페이지
 
 <h2>To-Do-List</h2>
