@@ -18,7 +18,7 @@
   <br>
 </div>
 
-MovilePlaza Demo - <a target="_blank" href="https://bp4sp4.github.io/MoviePlazaDemo/">MoviePlaza</a><br>
+MovilePlaza Demo - <a target="_blank" href="https://bp4sp4.github.io/MoviePlazaDemoSite/">MoviePlaza</a><br>
 MovilePlaza All -  <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?type=design&node-id=0-1&mode=design&t=TlKGTC03a9pZN7qv-0">figma</a>
 
 <h2>To-Do-List</h2>
