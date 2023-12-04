@@ -1,11 +1,25 @@
 # MoviePlaza - 퍼블리싱 완료
 
-MoviePlaza.
+# 수정사항 적용 완료 -> 작업기간 - 23/06 ~ 23/11 - 5개월
+<h3> 아쉬운점 : 피드백 텀이 길어 작업기간이 길어졌다 실 작업 시간은 1달정도 걸렸다.</h3>
 
-# 수정사항 적용 완료 (웹 O, 모바일 부분적용, 테블릿부분적용)
+<div align=center><h1>📚 STACKS</h1></div>
+<div align=center> 
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+  <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+  <br>
+  <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+  <br>
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/fontawesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white">
+  <br>
+</div>
 
-디자인 보기용 임시 홈페이지 - <a target="_blank" href="https://bp4sp4.github.io/dd/">MoviePlaza</a><br>
-봐야할 부분 - 작품DB, 트렌드분석, OTT순위, 로그인 , SNSJoin, Admin, 마이페이지
+MovilePlaza Demo - <a target="_blank" href="https://bp4sp4.github.io/MoviePlazaDemo/">MoviePlaza</a><br>
+MovilePlaza All -  <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?type=design&node-id=0-1&mode=design&t=TlKGTC03a9pZN7qv-0">figma</a>
 
 <h2>To-Do-List</h2>
 <ul>
