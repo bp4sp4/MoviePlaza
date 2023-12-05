@@ -1,7 +1,6 @@
 # MoviePlaza - 퍼블리싱 완료
 
 # 수정사항 적용 완료 -> 작업기간 - 23/06 ~ 23/11 - 5개월
-<h3> 아쉬운점 : 피드백 텀이 길어 작업기간이 길어졌다 실 작업 시간은 1달정도 걸렸다.</h3>
 
 <div align=center><h1>📚 STACKS</h1></div>
 <div align=center> 
@@ -18,9 +17,53 @@
   <br>
 </div>
 
-MovilePlaza Demo - <a target="_blank" href="https://bp4sp4.github.io/MoviePlazaDemo/">MoviePlaza</a><br>
-MovilePlaza All -  <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?type=design&node-id=0-1&mode=design&t=TlKGTC03a9pZN7qv-0">figma</a>
+<h2>MovilePlaza Demo - <a target="_blank" href="https://bp4sp4.github.io/MoviePlazaDemo/">MoviePlaza</a><br>
+MovilePlaza All - <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?type=design&node-id=0-1&mode=design&t=TlKGTC03a9pZN7qv-0">figma</a></h2>
 
+<h3>파트별 설명</h3>
+<h3>1. 작품DB</h3>
+    
+- 가상태그를 사용함에 있어 어렵단 느낌이 들었는데 막상 사용해보니 어렵지 않았다.
+- 글만 적어 놓으니 너무 휑한 느낌이 들어 이모티콘과 색을 집어놓았다.
+- 사실 first-child 같은 가상태그를 많이 안썼는데 유용하게 사용하게 되면서 이후에도 많이 쓴 계기가 된 거 같다.
+
+<code>
+ <pre>
+ .movie-info li::before {
+   content: "";
+   display: block;
+   height: 20px;
+   background: #000;
+   opacity: 0.7;
+   position: absolute;
+   width: 1px;
+   top: 10px;
+ }
+ .movie-info li:first-child::before {
+  width: 0;
+}
+
+</pre>
+</code>
+
+<h3>2. 트렌트 분석</h3>
+
+- 퍼블 요청으로는 마인드맵을 넣어야했다.
+- 직접 디자인을 할까 고민했는데 구글링을 해보니 모비스크롤이라는 라이브러리를 찾아 안쓸이유가 없다 생각이들어 적용했다.
+
+<h3>3. 영화관순위</h3>
+
+- 영화관순위 페이지는 영화진흥위원회 데이터를 크롤링한다고하여 백엔드 유지보수도 좋게 테이블 형식으로 만들었다.
+
+<h3>4. ott 순위</h3>
+
+- 아래 사진 참고해 만들었다.
+  ![ottrank](https://github.com/bp4sp4/MoviePlazaDemoSite/assets/62207757/1b71719b-1254-4cec-a5f9-1c6a0b350d47)
+
+프로젝트 아쉬운점
+
+- 퍼블리싱 피드백 텀이 길어 작업기간이 길어졌다.
+- 실 작업 시간은 1달정도 걸렸다.
 <h2>To-Do-List</h2>
 <ul>
 <li> [X] 작품db 검색이후 화면 디자인 </li>
