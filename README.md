@@ -26,7 +26,6 @@ MovilePlaza All - <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PV
 - 가상태그를 사용함에 있어 어렵단 느낌이 들었는데 막상 사용해보니 어렵지 않았다.
 - 글만 적어 놓으니 너무 휑한 느낌이 들어 이모티콘과 색을 집어놓았다.
 - 사실 first-child 같은 가상태그를 많이 안썼는데 유용하게 사용하게 되면서 이후에도 많이 쓴 계기가 된 거 같다.
-
 <code>
  <pre>
  .movie-info li::before {
@@ -45,7 +44,6 @@ MovilePlaza All - <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PV
 
 </pre>
 </code>
-
 <h3>2. 트렌트 분석</h3>
 
 - 퍼블 요청으로는 마인드맵을 넣어야했다.
