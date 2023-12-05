@@ -153,7 +153,7 @@ MovilePlaza All - <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PV
  <h1>남은것들<h1>
  <h3>1. DB순위</h3>
  <h3>2. 영화관순위</h3>
- <h3><del>3.트렌드분석<del></h3>
+ <h3><del>3.트렌드분석</del></h3>
  <h3>4. OTT순위</h3><br>
 
  <h1>어드민페이지</h1>
@@ -163,7 +163,7 @@ MovilePlaza All - <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PV
 <h1>남은것들</h1>
 <h3>UI</h3>
 <h3>1. DB순위<br>
-2. 트렌드분석 <br>
+2.트렌드분석 <br>
 3. 영화관순위<br>
 4. OTT순위</h3>
 <h3><del>5. 로그인 SNS 디자인</del></h3>
