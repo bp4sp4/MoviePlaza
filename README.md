@@ -1,8 +1,8 @@
-# MoviePlaza - 퍼블리싱 완료
+## MoviePlaza - 퍼블리싱 완료
 
-# 작업환경 : macOS 사용한 툴 : VSCode
+## 작업환경 : macOS 사용한 툴 : VSCode
 
-# 수정사항 적용 완료 -> 작업기간 - 23/06 ~ 23/11 - 5개월
+## 수정사항 적용 완료 -> 작업기간 - 23/06 ~ 23/11 - 5개월
 
 <div align=center><h1>📚 STACKS</h1></div>
 <div align=center> 
@@ -18,7 +18,8 @@
   <img src="https://img.shields.io/badge/fontawesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white">
   <br>
 </div>
-
+<br>
+(마우스 우클릭으로 열어 봐주시면 감사하겠습니다.)
 <h2>MovilePlaza Demo - <a target="_blank" href="https://bp4sp4.github.io/MoviePlazaDemoSite/">MoviePlaza</a><br>
 MovilePlaza All - <a target="_blank" href="https://www.figma.com/file/hG4KAIo0PVI0ZOLqZMIQyT/MoviePlaza?type=design&node-id=0-1&mode=design&t=TlKGTC03a9pZN7qv-0">figma</a></h2>
 
